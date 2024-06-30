@@ -53,7 +53,7 @@ module.exports = async (client) => {
                     title: `❓・Support Server`,
                     desc: `Make your server even better with Bot!`,
                     image: "https://cdn.discordapp.com/attachments/843487478881976381/874694194474668052/Bot_banner_invite.jpg",
-                    url: "https://discord.gg/52C8MtW54M",
+                    url: client.config.discord.botInvite,
                     components: [row2, row],
                     type: 'edit'
                 }, interaction.message)
