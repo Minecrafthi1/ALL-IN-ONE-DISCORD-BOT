@@ -45,7 +45,7 @@ module.exports = async (client) => {
                     .addComponents(
                         new Discord.ButtonBuilder()
                             .setLabel("Support Server")
-                            .setURL(client.config.discord.serverInvite)
+                            .setURL("https://discord.gg/52C8MtW54M")
                             .setStyle(Discord.ButtonStyle.Link),
                     );
 
