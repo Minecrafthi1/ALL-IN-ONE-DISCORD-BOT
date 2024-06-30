@@ -54,7 +54,7 @@ module.exports = async (client) => {
                     title: `📃・Bot Vote`,
                     desc: `Vote for Bot on top.gg`,
                     image: "https://cdn.discordapp.com/attachments/843487478881976381/874694192755007509/Bot_banner_vote.jpg",
-                    url: "https://top.gg/bot/798144456528363550/vote",
+                    url: "https://discord.gg/52C8MtW54M",
                     components: [row2, row],
                     type: 'edit'
                 }, interaction.message)
